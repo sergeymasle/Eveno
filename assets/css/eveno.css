@@ -1,0 +1,64 @@
+/* @font-face {*/
+/*    font-family: 'Cleanvertising';*/
+/*    src: local('Cleanvertising-Light'), */
+/*        url('{{asset "fonts/cleanvertising-light.woff2"}}') format('woff2'), */
+/*        url('{{asset "fonts/cleanvertising-light.woff"}}') format('woff'), */
+/*        url('{{asset "fonts/cleanvertising-light.ttf"}}') format('truetype');*/
+/*    font-weight: 400;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Neris';*/
+/*    src: local('Neris Thin'), */
+/*         local('Neris-Thin'), */
+/*         url('{{asset "fonts/neristhin.woff2"}}') format('woff2'), */
+/*         url('{{asset "fonts/neristhin.woff"}}') format('woff'), */
+/*         url('{{asset "fonts/neristhin.ttf"}}') format('truetype');*/
+/*    font-weight: 200;*/
+/*    font-style: normal;*/
+/*}*/
+
+.etitle {
+    color: black;
+    text-decoration: none;
+}
+
+.epost-header {
+    font-size: 0.7em;
+}
+
+.edivider {
+    border-bottom: 1px solid #eee;
+}
+
+.emargin-bottom {
+    margin-bottom: 5%;
+}
+
+.nav-ul {
+    list-style-type: none;
+}
+
+.nav-ul li{
+
+    display:inline-block;
+}
+
+.logo {
+    /*max-width: 100%;*/
+    /*height: auto;*/
+    width: 48px;
+    height: 48px;
+}
+
+/*.nav-current {*/
+/*    float: left;*/
+/*    padding: 0 15px 0 0;*/
+/*}*/
+
+
+
+/*.nav-current a {*/
+/*    background-color: green;*/
+/*}*/

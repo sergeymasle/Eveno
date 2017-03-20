@@ -4,18 +4,23 @@
     {{!--    <span class="hidden">Close</span>--}}
     {{!--</a>--}}
     <style>
-        .nav-ul {
-            list-style-type: none;
-        }
-        .nav-current {
-            float: left;
-            padding: 0 15px 0 0;
-        }
+        /*.nav-ul {*/
+        /*    list-style-type: none;*/
+        /*}*/
+        /*.nav-ul li{*/
+        
+        /*    display:inline-block;*/
+        /*}*/
+        /*.nav-current {*/
+        /*    float: left;*/
+        /*    padding: 0 15px 0 0;*/
+        /*}*/
     </style>
     <ul class="nav-ul">
         {{#foreach navigation}}
             <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation">
-                <a href="{{url absolute="true"}}">{{label}}</a>
+                {{!--<a href="{{url absolute="true"}}">{{label}}</a>--}}
+                <a class="button" href="{{url absolute="true"}}">{{label}}</a>
             </li>
         {{/foreach}}
     </ul>

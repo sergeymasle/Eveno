@@ -72,65 +72,30 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <style>
-      @font-face {
-            font-family: 'Cleanvertising';
-            src: local('Cleanvertising-Light'), 
-                url('{{asset "fonts/cleanvertising-light.woff2"}}') format('woff2'), 
-                url('{{asset "fonts/cleanvertising-light.woff"}}') format('woff'), 
-                url('{{asset "fonts/cleanvertising-light.ttf"}}') format('truetype');
-            font-weight: 400;
-            font-style: normal;
-        }
-        
-        /*@font-face {*/
-        /*    font-family: 'Neris';*/
-        /*    src: local('Neris Thin'), */
-        /*         local('Neris-Thin'), */
-        /*         url('{{asset "fonts/neristhin.woff2"}}') format('woff2'), */
-        /*         url('{{asset "fonts/neristhin.woff"}}') format('woff'), */
-        /*         url('{{asset "fonts/neristhin.ttf"}}') format('truetype');*/
-        /*    font-weight: 200;*/
-        /*    font-style: normal;*/
-        /*}*/
-        
-        .etitle {
-            color: black;
-            text-decoration: none;
-        }
-        
-        .epost-header {
-            font-size: 0.7em;
-        }
-        
-        .edivider {
-            border-bottom: 1px solid #eee;
-        }
-        
-        .emargin-bottom {
-            margin-bottom: 5%;
-        }
-        
-        .nav-ul {
-            list-style-type: none;
-        }
-        .nav-current {
-            float: left;
-            padding: 0 15px 0 0;
-        }
-        
-        /*.nav-current a {*/
-        /*    background-color: green;*/
-        /*}*/
+    @font-face {
+        font-family: 'Cleanvertising';
+        src: local('Cleanvertising-Light'), 
+            url('{{asset "fonts/cleanvertising-light.woff2"}}') format('woff2'), 
+            url('{{asset "fonts/cleanvertising-light.woff"}}') format('woff'), 
+            url('{{asset "fonts/cleanvertising-light.ttf"}}') format('truetype');
+        font-weight: 400;
+        font-style: normal;
+    }
   </style>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="{{asset "css/normalize.css"}}">
   <link rel="stylesheet" href="{{asset "css/skeleton.css"}}">
+  <link rel="stylesheet" href="{{asset "css/eveno.css"}}">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="{{asset "favicon.ico"}}">
+  
+  <script>
+      
+  </script>
 
 </head>
 <body class="{{body_class}}">
@@ -146,4 +111,14 @@
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.8&appId=341506462877216";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
 </html>
